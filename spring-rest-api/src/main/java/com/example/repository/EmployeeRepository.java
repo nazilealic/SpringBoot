@@ -27,8 +27,7 @@ public class EmployeeRepository {
 		}
 		return findEmployee;
 	}
-	
-	
+
 	public List<Employee> getEmployeeWithParams(String firstName, String lastName){
 		List<Employee> employeeWithParams = new ArrayList<>();
 		if(firstName == null && lastName==null) {
@@ -53,5 +52,9 @@ public class EmployeeRepository {
 			}
 		}
 		return employeeWithParams;
+	}
+	public Employee saveEmployee (Employee newEmployee) {
+		employeeList.add(newEmployee);
+		return newEmployee;
 	}
 }

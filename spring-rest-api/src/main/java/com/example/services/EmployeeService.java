@@ -31,4 +31,7 @@ public class EmployeeService {
 		return employeeRepository.getEmployeeWithParams(firstName, lastName);
 		
 	}
+	public Employee saveEmployee(Employee newEmployee) {
+		return employeeRepository.saveEmployee(newEmployee);
+	}
 }
