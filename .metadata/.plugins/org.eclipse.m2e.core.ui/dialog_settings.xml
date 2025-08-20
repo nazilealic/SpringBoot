@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\demo2"/>
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\deneme"/>
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\demo"/>
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\spring-data-jpa"/>
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\spring-rest-api"/>
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\spring-core"/>
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\1-springprojesi"/>
+			<item value="C:\Users\Pata\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\1SpringProjesi"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
