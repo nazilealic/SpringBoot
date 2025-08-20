@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import com.example.model.Employee;
-import com.example.model.UpdateEmployeeRequest;
 import com.example.repository.EmployeeRepository;
 
 @Service
@@ -34,13 +33,5 @@ public class EmployeeService {
 	}
 	public Employee saveEmployee(Employee newEmployee) {
 		return employeeRepository.saveEmployee(newEmployee);
-	}
-	
-	public boolean deleteEmployee(String id) {
-		return employeeRepository.deleteEmployee(id);
-	}
-	
-	public Employee updateEmployee(String id, UpdateEmployeeRequest request) {
-		return employeeRepository.updateEmployee(id, request);
 	}
 }
