@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class CustomUserDetail implements UserDetails {
-
     private String name;
     private String password;
     private List<GrantedAuthority> roles;
