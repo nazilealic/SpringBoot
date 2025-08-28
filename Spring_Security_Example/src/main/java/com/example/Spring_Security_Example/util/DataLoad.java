@@ -23,7 +23,7 @@ public class DataLoad implements ApplicationRunner {
     private RoleRepository roleRepository;
 
     @Autowired
-    private PasswordEncoder passwordEncoder; // Bu eklendi
+    private PasswordEncoder passwordEncoder;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
