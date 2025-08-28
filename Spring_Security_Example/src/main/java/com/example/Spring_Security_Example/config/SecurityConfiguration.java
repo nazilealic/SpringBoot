@@ -62,10 +62,11 @@ public class SecurityConfiguration {
                         .requestMatchers("/index").permitAll() // index herkese açık
                         .anyRequest().authenticated() // diğer tüm istekler login gerektirir
                 )
+
+
                 .formLogin(Customizer.withDefaults()) // login sayfası
                 .httpBasic(Customizer.withDefaults()); // basic auth
 
         return http.build();
     }
-
 }
