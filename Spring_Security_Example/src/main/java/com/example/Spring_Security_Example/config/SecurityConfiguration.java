@@ -57,14 +57,15 @@ public class SecurityConfiguration {
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/dashboard").hasAnyRole("ADMIN", "USER")
-                        .requestMatchers("/admin").hasRole("ADMIN")
-                        .requestMatchers("/index").permitAll()
-                        .anyRequest().authenticated()
+                        .requestMatchers("/dashboard").hasAnyRole("ADMIN", "USER") // admin + user erişebilir
+                        .requestMatchers("/admin").hasRole("ADMIN") // sadece admin erişebilir
+                        .requestMatchers("/index").permitAll() // index herkese açık
+                        .anyRequest().authenticated() // diğer tüm istekler login gerektirir
                 )
-                .formLogin(Customizer.withDefaults())
-                .httpBasic(Customizer.withDefaults());
+                .formLogin(Customizer.withDefaults()) // login sayfası
+                .httpBasic(Customizer.withDefaults()); // basic auth
 
         return http.build();
     }
+
 }
